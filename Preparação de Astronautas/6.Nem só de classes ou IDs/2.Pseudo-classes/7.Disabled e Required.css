@@ -1,0 +1,15 @@
+a:hover{
+  color: red;
+}
+
+input:disabled{
+
+}
+  
+a:hover{
+  color: red;
+}
+
+input:required{
+  background-color: green;
+}

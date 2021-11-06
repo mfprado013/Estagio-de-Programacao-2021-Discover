@@ -1,0 +1,10 @@
+li {
+  position: relativo;
+}
+li::before{
+  content: "";
+  width: 10px;
+  height: 1px;
+  background-color: blue;
+  position: absolute;
+}

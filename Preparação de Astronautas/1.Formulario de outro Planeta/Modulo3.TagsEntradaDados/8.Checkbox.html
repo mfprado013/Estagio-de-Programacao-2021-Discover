@@ -1,0 +1,34 @@
+<!--
+  <input type="checkbox">
+
+  - caixas que podem ser marcadas
+  - selecionar um valor para ser enviado
+  - se não selecionado, não será enviado nenhum dado
+
+  ATRIBUTOS
+  -globais
+  -value
+    * valor que aqulee campo contem 
+    * se não estiver presente, o padrão é "on"
+  - Checked
+    * para deixar o campo marcado por padrão
+-->
+
+<label for="subscribe">Receber notificações</label>
+<input type="checkbox" name="subscribe" id="subscribe" value="subscribe">
+<!-- subscribe ="on"-->
+
+<label for="subscribe">Receber notificações</label>
+<input type="checkbox" name="subscribe" id="subscribe" value="subscribe" checked>
+
+<!-- interest=coding,music-->
+<fieldset>
+   <legend>Choose your interests</legend>
+   <div>
+     <input type="checkbox" id="coding" name="interest" value="coding" checked>
+   </div>
+   <div>
+     <input type="checkbox" id="music" name="interest" value="music">
+     <label for="music">Music</label>
+   </div>
+</fieldset>

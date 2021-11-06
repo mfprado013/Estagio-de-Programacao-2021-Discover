@@ -1,0 +1,29 @@
+/* Box model
+  aqui vamos aprender sobre caixas, vamos aprender os modelos de caixa e como usar */
+
+  <h1>Marvel</h1> 
+<p>Homem Aranha</p>
+<button>Clique aqui</button>
+
+h1{
+  border: 3px solid black;
+  margin: 40px;
+  padding: 80px; 
+  background: red;
+}
+
+p{
+  border: 10px solid blue;
+  margin: 70px;
+  padding: 40px;
+  background: red;
+}
+
+button {
+  border: 4px solid ;
+  margin: 1px;
+  padding: 10px;
+  background: silver
+}
+
+https://codepen.io/mfprado013/pen/LYjZdqO

@@ -1,0 +1,94 @@
+<!--
+  <input Type="email"
+
+  - Espera que o usuário digite um email
+  - Irá validar se o valor digitado é um email
+
+  # Atributos
+
+  - placeholder
+  - readonly / disabled
+  - value
+
+  - required
+
+  - multiple
+    * o campo irá receber 1 ou mais emails, separado por vírgulas
+  - minlenght / maxlength
+    * O mínimo e/ou máximo valor que o campo irá conter
+  - size
+    * Valor numérico indicando quantas carateres esse
+  - pattern
+    * Uso de expressão regular para validar o campo
+    * Exemplo: o usuário só poderá colocar email do domínio 
+    matheus_100_sp@hotmail.com
+      * pattern="[.+@matheus\.com]"
+  - list
+    * O id de uma tag <datalist> que está no mesmo documento
+    * <datalist> irá conter uma lista de valores pré definidos a fim de sugerir ao usuário, quais valores estão disponíveis
+       * Os valores do <datalist> que não forem compatíveis com o campo, não serão apresentados como sugestão
+-->
+
+<!--placeholder-->
+<form action="">
+ <input type="email"
+ readonly
+ value="matheus_100_sp@hotmail.com">
+ <button type="submit">Enviar</button>  
+</form>
+
+<!--required-->
+<form action="">
+  <input type="Obrigatorio"
+  required>
+  <button type="submit">Enviar</button>
+</form>
+
+<!--multiple-->
+<form action="">
+  <input type="email"
+  multiple>
+  <button type="submit">Enviar</button>
+</form>
+
+<!--minlenght-->
+<form action="">
+  <input type="email"
+   minlength="8"
+  >
+  <button type="submit">Enviar</button>
+</form>
+
+<!--maxlenght-->
+<form action="">
+  <input type="email"
+    maxlength="250"
+  >
+  <button type="submit">Enviar</button>
+</form>
+
+<!--size-->
+<form action="">
+  <input type="email"
+    size="17"
+  >
+  <button type="submit">Enviar</button>
+</form>
+
+<!--pattern-->
+<form action="">
+  <input type="email"
+  pattern="[.+@matheus\.com]"
+  title="Somente emails matheus.com serão aceitos"
+  >
+  <button type="submit">Enviar</button>
+</form>
+
+<!--list-->
+<form action="">
+  <datalist id="emailslist">
+    <option>matheus_100_sp@hotmail.com</option>
+  </datalist>
+  <input type="submit" list="emailslist">
+  <button type="submit">Enviar</button>
+</form>

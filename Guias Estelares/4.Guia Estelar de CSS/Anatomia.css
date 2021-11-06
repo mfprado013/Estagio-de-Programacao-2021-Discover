@@ -1,0 +1,25 @@
+# Anatomia
+
+```css
+h1{
+  color: blue;
+  font-size: 60px;
+  background: gray;
+}
+```
+* Selector
+* Declaration
+* Properties
+* Property Value 
+
+/* Aqui esta uma estrura de formatacão de titulo, h1 seria o selector , {} par de chaves seria declaration onde pesso que todos h1 que eu tiver em index recebam as informaçoes, color,font-size,background vao ser is properties e property value, segui um exemplo que teve na aula */
+
+<h1>Titulo</h1>
+
+h1{
+  color: blue;
+  font-size: 60px;
+  background: gray;
+}
+
+/* Com esse comando mudamos a cor do Titulo e a cor de fundo do Titulo */
